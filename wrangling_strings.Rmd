@@ -20,6 +20,9 @@ library(dpiR)
   - need even more?, then `stringi`
 - Fuzzy Matching
   - `stringdist`
+  
+Also  
+  
 - Analyzing
   - Natural Language Processing (https://cran.rstudio.com/web/views/NaturalLanguageProcessing.html)
 - Visualizing

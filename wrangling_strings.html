@@ -444,6 +444,9 @@ list-style-type: none;
 <ul>
 <li><code>stringdist</code></li>
 </ul></li>
+</ul>
+<p>Also</p>
+<ul>
 <li>Analyzing
 <ul>
 <li>Natural Language Processing (<a href="https://cran.rstudio.com/web/views/NaturalLanguageProcessing.html" class="uri">https://cran.rstudio.com/web/views/NaturalLanguageProcessing.html</a>)</li>
@@ -491,7 +494,7 @@ list-style-type: none;
 ##   
 ##   return(out)  
 ## }
-## &lt;bytecode: 0x0000000018dc6100&gt;
+## &lt;bytecode: 0x0000000018db8908&gt;
 ## &lt;environment: namespace:dpiR&gt;</code></pre>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">dpiR<span class="op">::</span><span class="kw">sanitizeNames</span>(<span class="kw">c</span>(<span class="st">&quot;O&#39;Keefe Middle&quot;</span>, <span class="st">&quot;Bristol #4&quot;</span>, <span class="st">&quot;Science &amp; Technology&quot;</span>))</a></code></pre></div>
 <pre><code>## [1] &quot;OKeefe Middle&quot;          &quot;Bristol No. 4&quot;         
@@ -599,7 +602,7 @@ list-style-type: none;
 <li>remove or standardize some common words</li>
 </ul></li>
 <li>Find best match(es)</li>
-<li>Be conservative and have a way to hand check everything that isn’t an exact match</li>
+<li>Be conservative and <strong>force</strong> human check everything that isn’t an exact match</li>
 </ol>
 </div>
 <div id="code_distnames" class="slide section level2">
@@ -646,7 +649,7 @@ list-style-type: none;
 ##   
 ##   return(out)
 ## }
-## &lt;bytecode: 0x00000000183b4690&gt;
+## &lt;bytecode: 0x00000000183a61e8&gt;
 ## &lt;environment: namespace:dpiR&gt;</code></pre>
 </div>
 <div id="code_schnames" class="slide section level2">
@@ -694,7 +697,7 @@ list-style-type: none;
 ##     }
 ##   }
 ## }
-## &lt;bytecode: 0x00000000185ce7a8&gt;
+## &lt;bytecode: 0x00000000185c02c8&gt;
 ## &lt;environment: namespace:dpiR&gt;</code></pre>
 </div>
 <div id="questions" class="slide section level2">
